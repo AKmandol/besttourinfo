@@ -1,0 +1,8 @@
+
+RewriteOptions inherit
+<IfModule mod_rewrite.c>
+       RewriteEngine On
+       RewriteRule ^(.*)$ public/$1 [L]
+ </IfModule>
+RewriteCond %{HTTP_HOST} ^.*$
+RewriteRule ^(.*)$ "https\:\/\/besttourinfo\.com\/$1" [R=301,L]

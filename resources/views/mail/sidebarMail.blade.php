@@ -1,0 +1,61 @@
+<html>
+
+<body style="background-color:#fff;font-family: Open Sans, sans-serif;font-size:100%;font-weight:400;line-height:1.4;color:#000;">
+  <div style="width:720px;border-radius:7px;border:1px solid #D47400;margin:0 auto;">
+
+    <table style="width:670px;margin:10px auto 10px;background-color:#fff;padding:20px;border-radius:7px;border-top: solid 15px green;border-left:.1px solid green;border-right:.1px solid green;border-bottom:.1px solid green;">
+      <thead> 
+          <tr>
+            <th style="text-align:left;"><img style="max-width: 180px;" src="https://besttourinfo.com/img/logo.png" alt="Besttourinfo.com"></th>
+            <th style="text-align:right;font-weight:500;font-size:15px">{{ date("Y.m.d") }}</th>
+          </tr>
+        </thead>
+    </table>
+
+
+    <table style="width:670px;margin:60px auto 20px;padding:15px;border-radius:7px;">
+      <tfooter>
+        <tr>
+          <td style="padding:5px">
+            {!! $messageBody !!}          
+          </td>
+        </tr>
+      </tfooter>
+    </table>
+
+
+    <table style="width:670px;margin:60px auto 20px;background-color:#F6FDF1;padding:15px;border-radius:7px;color:#000;border-bottom: solid 1px orange;border-left:.1px solid orange;border-right:.1px solid orange;border-top:.1px solid orange;">
+      <tfooter>
+        <tr>
+          <td style="font-size:14px;padding:5px;text-align:center;">
+            <a style="verticaly-align:middle;text-decoration: none;color:#000" href="https://besttourinfo.com/profile">For more Information <span style="verticaly-align:middle;text-decoration: underline;padding:0 3px;color:blue;">Click Here</span> or Contact our Support Team.</a>
+          </td>
+        </tr>
+      </tfooter>
+    </table>
+
+    <table style="background-color:#E6FDFF;border-radius:7px;width:720px;margin:10px auto 0;padding:30px 20px;">
+
+      <thead> 
+        <tr>
+          <th style="text-align:left;font-weight:600;font-size:15px;color:#000;">
+          <a href="https://besttourinfo.com/about" style="font-size:14px;text-decoration:none;font-weight:bold;padding:0 10px;">About us</a>
+          </th>
+          <th style="text-align:center;font-weight:600;font-size:15px;color:#000;">
+          <a href="https://besttourinfo.com/contact" style="font-size:14px;text-decoration:none;font-weight:bold;padding:0 10px;">Contact us</a>
+          </th>
+          <th style="text-align:right;font-weight:600;font-size:15px;color:#000;">
+          <a href="https://besttourinfo.com/refund-policies" style="font-size:14px;text-decoration:none;font-weight:bold;padding:0 10px;">Refund Policy</a>
+          </th>
+          <th style="text-align:right;font-weight:600;font-size:15px;color:#000;">
+          <a href="https://besttourinfo.com/refund-policies" style="font-size:14px;text-decoration:none;font-weight:bold;padding:0 10px;">Cancelation Policy</a>
+          </th>
+        </tr>
+      </thead>
+    
+     </table>
+
+  </div>
+</body>
+
+</html>

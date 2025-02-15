@@ -52,7 +52,7 @@
             
         </div>
         {{-- SSL E-Commerce --}}
-          <!-- <script>
+          <script>
             (function (window, document) {
                 var loader = function () {
                     var script = document.createElement("script"), tag = document.getElementsByTagName("script")[0];
@@ -62,8 +62,8 @@
 
                 window.addEventListener ? window.addEventListener("load", loader, false) : window.attachEvent("onload", loader);
                 })(window, document);
-          </script>  -->
-        <script>
+          </script> 
+        <!-- <script>
             (function (window, document) {
                 var loader = function () {
                     var script = document.createElement("script"), tag = document.getElementsByTagName("script")[0];
@@ -73,13 +73,13 @@
 
                 window.addEventListener ? window.addEventListener("load", loader, false) : window.attachEvent("onload", loader);
             })(window, document);
-        </script>
+        </script> -->
         {{-- SSL E-Commerce --}}
        
         <script src="{{asset('/bootstrap/bootstrap.bundle.min.js')}}"></script> 
         <script src="{{asset('/js/app.js')}}"></script> 
         <!-- Messenger Chat plugin Code -->
-        <div id="fb-root"></div>
+        <!-- <div id="fb-root"></div>
 
         <div id="fb-customer-chat" class="fb-customerchat">
         </div>
@@ -105,7 +105,7 @@
                 js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
                 fjs.parentNode.insertBefore(js, fjs);
             }(document, 'script', 'facebook-jssdk'));
-        </script>
+        </script> -->
         
 
     </body>
